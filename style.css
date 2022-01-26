@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.demarcator {
+  padding: 0 15px;
+  font-size: 30px;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #f3f3f3;
+  position: fixed;
+}
+
+.header ul {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+.header-menus {
+  display: flex;
+  padding-top: 12px;
+}
+
+.header ul li a {
+  color: #000;
+  font-weight: 1000px;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 10px;
+  text-align: center;
+}
+
+/*body layout styling*/
+
+.container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-2 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-display-2 {
+  margin-top: 40.8%;
+  margin-left: 20%;
+}
+
+.background-display {
+  margin-top: 45%;
+}
+
+.background-display {
+  background-color: #111;
+  border-radius: 7px;
+  padding: 30px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 25%;
+}
+
+.background-display-2 {
+  background-color: #24bfbf;
+  border-radius: 7px;
+  padding: 30px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn-changer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 23%;
+}
+
+.clickable {
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.clickable-2 {
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.btn-changer ul li {
+  margin: 0 9.5em;
+}
+
+.background-display .back-color {
+  color: #fff;
+  font-size: 25px;
+  padding: 5px;
+  padding-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.background-display p .back-color {
+  color: yellow;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 5px;
+  display: inline;
+}
+
+body {
+  background-color: tomato;
+  overflow: hidden;
+}
